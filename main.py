@@ -21,7 +21,7 @@ def load_files():
 
 def render(game,current):
     c = game[current]
-    print("You are at the " + c["name"])
+    print("You are at the Creepy Mansion" + c["name"])
     print(c["desc"])
 
 def get_input():
